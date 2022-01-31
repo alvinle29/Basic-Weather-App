@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City" />
+
+        <TextView
+            android:id="@+id/condTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Condition" />
+
+        <TextView
+            android:id="@+id/tempTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Temperature" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iconImageView"
+        android:layout_width="109dp"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/refreshImageView"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/ic_baseline_autorenew_24" />
+
+</LinearLayout>
